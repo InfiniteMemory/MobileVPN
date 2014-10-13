@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044AC3CE19EBECA200DDAA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AC3CD19EBECA200DDAA1E /* AppDelegate.swift */; };
+		044AC3D019EBECA200DDAA1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AC3CF19EBECA200DDAA1E /* ViewController.swift */; };
+		044AC3D319EBECA200DDAA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044AC3D119EBECA200DDAA1E /* Main.storyboard */; };
+		044AC3D519EBECA200DDAA1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044AC3D419EBECA200DDAA1E /* Images.xcassets */; };
+		044AC3D819EBECA200DDAA1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044AC3D619EBECA200DDAA1E /* LaunchScreen.xib */; };
+		044AC3E419EBECA200DDAA1E /* MobileVPNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AC3E319EBECA200DDAA1E /* MobileVPNTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044AC3DE19EBECA200DDAA1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044AC3C019EBECA200DDAA1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044AC3C719EBECA200DDAA1E;
+			remoteInfo = MobileVPN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044AC3C819EBECA200DDAA1E /* MobileVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044AC3CC19EBECA200DDAA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044AC3CD19EBECA200DDAA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044AC3CF19EBECA200DDAA1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044AC3D219EBECA200DDAA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044AC3D419EBECA200DDAA1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044AC3D719EBECA200DDAA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		044AC3DD19EBECA200DDAA1E /* MobileVPNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileVPNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044AC3E219EBECA200DDAA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044AC3E319EBECA200DDAA1E /* MobileVPNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVPNTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044AC3C519EBECA200DDAA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044AC3DA19EBECA200DDAA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044AC3BF19EBECA200DDAA1E = {
+			isa = PBXGroup;
+			children = (
+				044AC3CA19EBECA200DDAA1E /* MobileVPN */,
+				044AC3E019EBECA200DDAA1E /* MobileVPNTests */,
+				044AC3C919EBECA200DDAA1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044AC3C919EBECA200DDAA1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044AC3C819EBECA200DDAA1E /* MobileVPN.app */,
+				044AC3DD19EBECA200DDAA1E /* MobileVPNTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044AC3CA19EBECA200DDAA1E /* MobileVPN */ = {
+			isa = PBXGroup;
+			children = (
+				044AC3CD19EBECA200DDAA1E /* AppDelegate.swift */,
+				044AC3CF19EBECA200DDAA1E /* ViewController.swift */,
+				044AC3D119EBECA200DDAA1E /* Main.storyboard */,
+				044AC3D419EBECA200DDAA1E /* Images.xcassets */,
+				044AC3D619EBECA200DDAA1E /* LaunchScreen.xib */,
+				044AC3CB19EBECA200DDAA1E /* Supporting Files */,
+			);
+			path = MobileVPN;
+			sourceTree = "<group>";
+		};
+		044AC3CB19EBECA200DDAA1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044AC3CC19EBECA200DDAA1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044AC3E019EBECA200DDAA1E /* MobileVPNTests */ = {
+			isa = PBXGroup;
+			children = (
+				044AC3E319EBECA200DDAA1E /* MobileVPNTests.swift */,
+				044AC3E119EBECA200DDAA1E /* Supporting Files */,
+			);
+			path = MobileVPNTests;
+			sourceTree = "<group>";
+		};
+		044AC3E119EBECA200DDAA1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044AC3E219EBECA200DDAA1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044AC3C719EBECA200DDAA1E /* MobileVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044AC3E719EBECA200DDAA1E /* Build configuration list for PBXNativeTarget "MobileVPN" */;
+			buildPhases = (
+				044AC3C419EBECA200DDAA1E /* Sources */,
+				044AC3C519EBECA200DDAA1E /* Frameworks */,
+				044AC3C619EBECA200DDAA1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileVPN;
+			productName = MobileVPN;
+			productReference = 044AC3C819EBECA200DDAA1E /* MobileVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044AC3DC19EBECA200DDAA1E /* MobileVPNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044AC3EA19EBECA200DDAA1E /* Build configuration list for PBXNativeTarget "MobileVPNTests" */;
+			buildPhases = (
+				044AC3D919EBECA200DDAA1E /* Sources */,
+				044AC3DA19EBECA200DDAA1E /* Frameworks */,
+				044AC3DB19EBECA200DDAA1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044AC3DF19EBECA200DDAA1E /* PBXTargetDependency */,
+			);
+			name = MobileVPNTests;
+			productName = MobileVPNTests;
+			productReference = 044AC3DD19EBECA200DDAA1E /* MobileVPNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044AC3C019EBECA200DDAA1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jack Liu";
+				TargetAttributes = {
+					044AC3C719EBECA200DDAA1E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					044AC3DC19EBECA200DDAA1E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 044AC3C719EBECA200DDAA1E;
+					};
+				};
+			};
+			buildConfigurationList = 044AC3C319EBECA200DDAA1E /* Build configuration list for PBXProject "MobileVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044AC3BF19EBECA200DDAA1E;
+			productRefGroup = 044AC3C919EBECA200DDAA1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044AC3C719EBECA200DDAA1E /* MobileVPN */,
+				044AC3DC19EBECA200DDAA1E /* MobileVPNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044AC3C619EBECA200DDAA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044AC3D319EBECA200DDAA1E /* Main.storyboard in Resources */,
+				044AC3D819EBECA200DDAA1E /* LaunchScreen.xib in Resources */,
+				044AC3D519EBECA200DDAA1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044AC3DB19EBECA200DDAA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044AC3C419EBECA200DDAA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044AC3D019EBECA200DDAA1E /* ViewController.swift in Sources */,
+				044AC3CE19EBECA200DDAA1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044AC3D919EBECA200DDAA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044AC3E419EBECA200DDAA1E /* MobileVPNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044AC3DF19EBECA200DDAA1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044AC3C719EBECA200DDAA1E /* MobileVPN */;
+			targetProxy = 044AC3DE19EBECA200DDAA1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044AC3D119EBECA200DDAA1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044AC3D219EBECA200DDAA1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044AC3D619EBECA200DDAA1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044AC3D719EBECA200DDAA1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044AC3E519EBECA200DDAA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044AC3E619EBECA200DDAA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044AC3E819EBECA200DDAA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044AC3E919EBECA200DDAA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044AC3EB19EBECA200DDAA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobileVPNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileVPN.app/MobileVPN";
+			};
+			name = Debug;
+		};
+		044AC3EC19EBECA200DDAA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobileVPNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileVPN.app/MobileVPN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044AC3C319EBECA200DDAA1E /* Build configuration list for PBXProject "MobileVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044AC3E519EBECA200DDAA1E /* Debug */,
+				044AC3E619EBECA200DDAA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044AC3E719EBECA200DDAA1E /* Build configuration list for PBXNativeTarget "MobileVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044AC3E819EBECA200DDAA1E /* Debug */,
+				044AC3E919EBECA200DDAA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044AC3EA19EBECA200DDAA1E /* Build configuration list for PBXNativeTarget "MobileVPNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044AC3EB19EBECA200DDAA1E /* Debug */,
+				044AC3EC19EBECA200DDAA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044AC3C019EBECA200DDAA1E /* Project object */;
+}
